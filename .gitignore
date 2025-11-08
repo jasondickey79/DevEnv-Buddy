@@ -1,0 +1,19 @@
+# Python virtuaal environment
+venv/
+
+#Byte-compiled / cache files
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+
+# macOS / system junk
+.DS_Store
+
+# Logs
+*.log
+
+# Test / coverage files
+.coverage
+htmlcov/
