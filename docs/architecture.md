@@ -6,10 +6,10 @@ This diagram shows the flow of components in the **DevEnv-Buddy** system — fro
 
 ```mermaid
 flowchart TD
-    A[YAML Config File] --> B[Config Loader (PyYAML)]
-    B --> C[Environment Manager (Docker Compose)]
-    C --> D[Test Runner (HTTP/Integration Checks)]
-    C --> E[Notifier (Slack/Webhook)]
-    D --> F[CI/CD Pipeline (GitHub Actions)]
+    A["YAML Config File"] --> B["Config Loader (PyYAML)"]
+    B --> C["Environment Manager (Docker Compose)"]
+    C --> D["Test Runner (HTTP/Integration Checks)"]
+    C --> E["Notifier (Slack/Webhook)"]
+    D --> F["CI/CD Pipeline (GitHub Actions)"]
     E --> F
-    F --> G[Developer Feedback & Logs]
+    F --> G["Developer Feedback & Logs"]
