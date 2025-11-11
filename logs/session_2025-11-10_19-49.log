@@ -1,0 +1,37 @@
+Script started on 2025-11-10 19:49:28-05:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="104" LINES="24"]
+[?2004h(base) ]0;jasondickey@pop-os: ~/projects/DevEnv-Buddy[01;32mjasondickey@pop-os[00m:[01;34m~/projects/DevEnv-Buddy[00m$ rebootsudo systemctl status docker[4Pystemctl restart[C[C[C[C[C[C[Cudo usermod -aG docker $USER[1@w[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Pdocker run hello-world worldclear[Kpython -m devenvbuddy.main up[13Pconda deactivate
+[?2004l[?2004h]0;jasondickey@pop-os: ~/projects/DevEnv-Buddy[01;32mjasondickey@pop-os[00m:[01;34m~/projects/DevEnv-Buddy[00m$ conda deactivate[10Prebootsudo systemctl status docker[4Pystemctl restart[C[C[C[C[C[C[Cudo usermod -aG docker $USER[1@w[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Pdocker run hello-world worldclear[Kpython -m devenvbuddy.main up[13Pconda deactivatepython -m devenvbuddy.main up[13Pconda deactivatepython -m devenvbuddy.main upclear[Kdocker run hello world-worldsudo usewrmod -aG docker $USER[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5Pystemctl restart docker[4@udo systemctl status[C[C[C[C[C[C[Creboot[Kconda deactivate[Kconda deactivate[10Prebootsudo systemctl status docker[4Pystemctl restart[C[C[C[C[C[C[Cudo usermod -aG docker $USER[1@w[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Pdocker run hello-world worldclear[Kpython -m devenvbuddy.main up[13Pconda deactivatepython -m devenvbuddy.main up[5Psource venv/bin/activatels[Ksource venv/bin/activate
+[?2004l[?2004h(venv) ]0;jasondickey@pop-os: ~/projects/DevEnv-Buddy[01;32mjasondickey@pop-os[00m:[01;34m~/projects/DevEnv-Buddy[00m$ docker ps
+[?2004lCONTAINER ID   IMAGE          COMMAND                  CREATED         STATUS         PORTS                                     NAMES
+ed944a8f8b3f   mysql:8        "docker-entrypoint.s…"   4 minutes ago   Up 4 minutes   3306/tcp, 33060/tcp                       devenv-buddy-db-1
+bfeaa174d632   nginx:latest   "/docker-entrypoint.…"   4 minutes ago   Up 4 minutes   0.0.0.0:8080->80/tcp, [::]:8080->80/tcp   devenv-buddy-web-1
+[?2004h(venv) ]0;jasondickey@pop-os: ~/projects/DevEnv-Buddy[01;32mjasondickey@pop-os[00m:[01;34m~/projects/DevEnv-Buddy[00m$ curl http://localhost:8080
+[?2004l<!DOCTYPE html>
+<html>
+<head>
+<title>Welcome to nginx!</title>
+<style>
+html { color-scheme: light dark; }
+body { width: 35em; margin: 0 auto;
+font-family: Tahoma, Verdana, Arial, sans-serif; }
+</style>
+</head>
+<body>
+<h1>Welcome to nginx!</h1>
+<p>If you see this page, the nginx web server is successfully installed and
+working. Further configuration is required.</p>
+
+<p>For online documentation and support please refer to
+<a href="http://nginx.org/">nginx.org</a>.<br/>
+Commercial support is available at
+<a href="http://nginx.com/">nginx.com</a>.</p>
+
+<p><em>Thank you for using nginx.</em></p>
+</body>
+</html>
+[?2004h(venv) ]0;jasondickey@pop-os: ~/projects/DevEnv-Buddy[01;32mjasondickey@pop-os[00m:[01;34m~/projects/DevEnv-Buddy[00m$ python -m devenvbuddy.main up
+[?2004l[?2004h(venv) ]0;jasondickey@pop-os: ~/projects/DevEnv-Buddy[01;32mjasondickey@pop-os[00m:[01;34m~/projects/DevEnv-Buddy[00m$ python -m devenvbuddy.main up[K[Kdown
+[?2004l[?2004h(venv) ]0;jasondickey@pop-os: ~/projects/DevEnv-Buddy[01;32mjasondickey@pop-os[00m:[01;34m~/projects/DevEnv-Buddy[00m$ exit
+[?2004lexit
+
+Script done on 2025-11-10 19:50:48-05:00 [COMMAND_EXIT_CODE="0"]
