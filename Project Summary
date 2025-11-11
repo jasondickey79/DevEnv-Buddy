@@ -1,0 +1,12 @@
+# DevEnv-Buddy 
+
+**DevEnv-Buddy** is a lightweight DevOps automation ntool that helps developers spin up, test, and tear down disposable environments on demand using Docker Compose and simple YAML configuration files.
+
+It allows teams to:
+- DFefine repeatable **development or test environments as code.
+- Run quick **smoke tests** or **integrationchecks** automatically.
+- Receive **notifications** when environments pass or fail.
+- Integrate seamlessly into **CI/CD pipelines** (e.g., Github Actions).
+
+This project demonstrates professional-grade DevOps automation, Infrastructure as Code, and CI/CD practices in a single, easy-to-understand Python-based tool.
+
